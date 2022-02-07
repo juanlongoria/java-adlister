@@ -13,9 +13,10 @@
 <body>
 <h1>Hello, $(name)!</h1>
 
-
+<form action="hello" method="post">
 <label for="color">What is your favorite color?</label>
 <input name="color" id="color"type="text"/>
 <input type="submit" value="Submit"/>
+</form>
 </body>
 </html>
