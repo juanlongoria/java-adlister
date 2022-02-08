@@ -1,0 +1,27 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <jsp:include page="../partials/head.jsp">
+        <jsp:param name="title" value="Your Profile" />
+    </jsp:include>
+
+    <style>
+
+
+
+    </style>
+</head>
+
+<%--<c:if test="${logOut}">--%>
+<%--    request.getSession().invalidate();--%>
+<%--</c:if>--%>
+<body>
+
+    <jsp:include page="../partials/navbar.jsp" />
+
+    <div class="container">
+        <h1>Welcome To Your Profile</h1>
+    </div>
+
+</body>
+</html>
