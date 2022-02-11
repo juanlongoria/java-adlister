@@ -15,7 +15,7 @@
         <input type="text" name="query" id="query">
         <input type="submit" value="Submit Search">
     </form>
-    <h1>Here Are all search results <c:out value="${query}" />!</h1>
+    <h1>Here Are all search results for <c:out value="${query}" />!</h1>
 
     <c:forEach var="ad" items="${ads}">
         <div class="col-md-6">
